@@ -1,0 +1,8 @@
+# https://reflectoring.io/spring-boot-exception-handling/
+# https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties.server
+server:
+  error:
+    include-message: always
+    include-stacktrace: always
+    include-binding-errors: always
+    include-exception: true
